@@ -26,6 +26,11 @@ a {
 		text-decoration: none;
 	}
 }
+
+header,main,footer {
+	display: none;
+}
+
 .title {
 	text-align: center;
 	@include responsive(font-size, 32px, 24px, 18px);
