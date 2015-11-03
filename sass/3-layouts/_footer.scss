@@ -1,0 +1,23 @@
+footer {
+	.thank-box {
+		margin-top: 10px;
+		width: 100%;
+		display: inline-block;
+		.thank {
+			text-align: center;
+			@include responsive(font-size, 36px, 28px, 22px);
+			@include responsive(margin-top , 80px, 60px, 40px);	
+			@include responsive(margin-bottom , 80px, 60px, 40px);	
+		}
+		.cont {
+			@include responsive(padding , 0 30px, 0 15px, 5px);	
+			padding: 0 30px;
+			.c-l {
+				float: left;
+			}
+			.c-r {
+				float: right;
+			}
+		}	
+	}
+}
