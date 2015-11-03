@@ -9,9 +9,11 @@ header {
 		width: 100%;
 		background: url('../img/welcome.jpg') center center;
 		background-size: cover;
-		background-attachment: fixed;
 		padding-top: 120px;
 		padding-bottom: 120px;
+		@include bp(large-up) {
+			background-attachment: fixed;
+		}		
 		.w-title {
 			@include responsive(margin-bottom, 60px, 40px, 20px);
 			text-align: center;
